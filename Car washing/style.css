@@ -13,7 +13,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #16C47F; /* Blue background */
+    background-color: #F14A00; /* Darker shade */
     padding: 10px 20px;
     
 }
@@ -75,13 +75,13 @@ body {
 
 .service {
     padding: 40px;
-    background-color: #e6f2ff;
+    background-color: #522546;
     text-align: center;
 }
 
 .service h2 {
     font-size: 2.2em;
-    color: #003366;
+    color: #8cecbf;
     margin-bottom: 30px;
 }
 
@@ -92,7 +92,7 @@ body {
 }
 
 .card > div {
-    background: #fff;
+    background: #838385;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -112,7 +112,8 @@ body {
 
 .card h3 {
     margin-top: 15px;
-    color: #0077b6;
+    padding: 10px;
+    color: #080ce5;
 }
 
 .card p {
