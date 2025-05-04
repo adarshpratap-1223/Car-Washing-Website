@@ -70,40 +70,49 @@
                 <!-- Our services end -->
                 <!-- Pricing -->
                 <div class="price">
-                    <h2>Pricing</h2>
+                    <h2>Price</h2>
                     <p>We offer competitive pricing for all our services. Check out our rates below:</p>
-                </div>
-                <div class="pricing">
-                    <div>
-                        <h3>Exterior Wash</h3>
-                        <p>$20</p>
-                    </div>
-                    <div>
-                        <h3>Interior Cleaning</h3>
-                        <p>$30</p>
-                    </div>
-                    <div>
-                        <h3>Waxing and Polishing</h3>
-                        <p>$50</p>
-                    </div>
-                    <div>
-                        <h3>Engine Cleaning</h3>
-                        <p>$40</p>
-                    </div>
-                    <div>
-                        <h3>Headlight Restoration</h3>
-                        <p>$25</p>
+                    <div class="price-table">
+                        <div>
+                            <h3>Exterior Wash</h3>
+                            <p>$20</p>
+                            <button>Pay</button>
+                        </div>
+                        <div>
+                            <h3>Interior Cleaning</h3>
+                            <p>$30</p>
+                            <button>Pay</button>
+                        </div>
+                        <div>
+                            <h3>Waxing and Polishing</h3>
+                            <p>$50</p>
+                            <button>Pay</button>
+                        </div>
+                        <div>
+                            <h3>Engine Cleaning</h3>
+                            <p>$40</p>
+                            <button>Pay</button>
+                        </div>
+                        <div>
+                            <h3>Headlight Restoration</h3>
+                            <p>$25</p>
+                            <button>Pay</button>
+                        </div>
                     </div>
                 </div>
                 <!-- Pricing end -->
                 <!-- History -->
-                <h2>History</h2>
+                <div class="history">
+                    <h2>History</h2>
                 <p>Neutrela Car Washing has been serving the community since 2010. Our mission is to provide the best car washing services with a focus on quality and customer satisfaction.</p>
                 <p>Over the years, we have expanded our services and upgraded our equipment to ensure that we meet the highest standards in the industry.</p>
                 <p>We are proud to have a loyal customer base and continue to strive for excellence in everything we do.</p>
+                </div>
                 <!-- History end -->
                 <!-- Picture -->
-                <h2>Picture</h2>
+                <div class="picture">
+                    <h2>Picture</h2>
+                    <p>Some deliteful picture our working period in Car Washing Center.See this picture and judge our work and using this platform to own Car Wash.</p>
                 <div>
                     <img src="image/car-1.jpg" alt="Car 1">
                     <img src="image/car2.jpg" alt="Car 2">
@@ -112,9 +121,11 @@
                     <img src="image/car5.webp" alt="Car 5">
                     <img src="image/car6.jpg" alt="Car 6">
                 </div>
+                </div>
                 <!-- Picture end -->
                 <!-- Feedback -->
-                <h2>Feedback</h2>
+                <div class="feedback">
+                    <h2>Feedback</h2>
                 <form action="feedback.js" method="post">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required>
@@ -124,7 +135,15 @@
                     <textarea id="message" name="message" required></textarea>
                     <button type="submit">Submit</button>
                 </form>
-                <div>
+                <div class="feedback-display">
+                    <h2>Customer Feedback</h2>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
                     <div>
                         <img src="image/nitish.jpg" alt="your image">
                         <h3>Nitish Tiwari</h3>
@@ -141,20 +160,22 @@
                         <p>"I love the waxing and polishing service. My car shines like never before!"</p>
                     </div>
                 </div>
+                </div>
                 <!-- Feedback end -->
-                <!-- Contact us -->
-                <h2>Contact Us</h2>
-                <p>If you have any questions or would like to book a service, please contact us:</p>
-                <p>Email:neutrela@gmail.com</p>
-                <p>Phone: +91 1234567890</p>
-                <p>Address: 123 Car Wash Lane, City, State, ZIP</p>
-                <p>We are open from Monday to Saturday, 9 AM to 6 PM.</p>
-                <p>Follow us on social media for updates and promotions!</p>
         </main>
     <!-- Main section end -->
     <!-- Footer section -->
-    <footer>
-        <div>
+    <footer class="footer">
+        <!-- Contact us -->
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to book a service, please contact us:</p>
+        <p>Email:neutrela@gmail.com</p>
+        <p>Phone: +91 1234567890</p>
+        <p>Address: 123 Car Wash Lane, City, State, ZIP</p>
+        <p>We are open from Monday to Saturday, 9 AM to 6 PM.</p>
+        <p>Follow us on social media for updates and promotions!</p>
+        <!-- Contact us end -->
+        <div class="footer-content">
             <p>&copy; 2023 Neutrela Car Washing. All rights reserved.</p>
             <p>Follow us on social media:</p>
             <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
@@ -163,5 +184,6 @@
         </div>
     </footer>
     <!-- Footer section end -->
+    <script src="script.js"></script>
 </body>
 </html>

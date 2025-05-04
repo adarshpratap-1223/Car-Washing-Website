@@ -113,11 +113,250 @@ body {
 .card h3 {
     margin-top: 15px;
     padding: 10px;
-    color: #080ce5;
+    color: #02020e;
 }
 
 .card p {
     font-size: 0.95em;
-    color: #444;
+    color: #0f0bf2;
     margin-top: 10px;
 }
+
+.price {
+    padding: 40px;
+    background-color: #09122C;
+    text-align: center;
+}
+
+.price h2 {
+    font-size: 2.2em;
+    color: #8cecbf;
+    margin-bottom: 30px;
+}
+
+.price p {
+    font-size: 1.2em;
+    color: #8cecbf;
+    margin-bottom: 30px;
+}
+
+.price-table {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+.price-table > div {
+    background: #838385;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.price-table > div:hover {
+    transform: translateY(-5px);
+}
+.price-table h3 {
+    margin-top: 15px;
+    padding: 10px;
+    color: #02020e;
+}
+.price-table p {
+    font-size: 0.95em;
+    color: #0f0bf2;
+    margin-top: 10px;
+}
+.price-table span {
+    font-size: 1.5em;
+    color: #ffcc00;
+    font-weight: bold;
+}
+.price-table button {
+    background-color: #F14A00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+.price-table button:hover {
+    background-color: #ffcc00;
+    color: #F14A00;
+}
+
+.history {
+    padding: 40px;
+    background-color: #522546;
+    text-align: center;
+}
+
+.history h2 {
+    font-size: 2.2em;
+    color: #0a0d0c;
+    margin-bottom: 30px;
+}
+
+.history p {
+    font-size: 1.2em;
+    color: #d3e0da;
+    margin-bottom: 30px;
+}
+
+.picture {
+    text-align: center;
+    padding: 30px;
+    background: #0472e8;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.picture h2 {
+    font-size: 28px;
+    color: #a8dc0a;
+    margin-bottom: 10px;
+}
+
+.picture p {
+    font-size: 16px;
+    color: #333;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+.picture div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.picture img {
+    width: 180px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.picture img:hover {
+    transform: scale(1.05);
+}
+
+.feedback {
+    padding: 30px;
+    background-color: #f2f9ff;
+    border-radius: 10px;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.feedback h2 {
+    text-align: center;
+    color: #004080;
+    margin-bottom: 20px;
+}
+
+.feedback form {
+    max-width: 600px;
+    margin: 0 auto 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.feedback label {
+    font-weight: bold;
+    text-align: left;
+}
+
+.feedback input,
+.feedback textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.feedback textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.feedback button {
+    width: 150px;
+    padding: 10px;
+    background-color: #004080;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    align-self: center;
+    transition: background-color 0.3s;
+}
+
+.feedback button:hover {
+    background-color: #0066cc;
+}
+
+.feedback-display {
+    text-align: center;
+}
+
+.feedback-display div {
+    background-color: #fff;
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.feedback-display img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+
+.footer {
+    background-color: #00264d;
+    color: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.footer h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffcc00;
+}
+
+.footer p {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #ffcc00;
+}
+
+.footer-content {
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+
